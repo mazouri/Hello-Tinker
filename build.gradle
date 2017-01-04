@@ -1,0 +1,22 @@
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath "com.tencent.tinker:tinker-patch-gradle-plugin:1.7.6"
+
+        // TinkerPatch 插件
+        classpath "com.tinkerpatch.sdk:tinkerpatch-gradle-plugin:1.0.1"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+}
+
